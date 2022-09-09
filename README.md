@@ -25,6 +25,6 @@ tqdm
 jupyter
 
 # Required files
-/data2/RCC/shono_dicom2
-/data2/RCC/RCC_detail_done.csv 
-/data2/RCC/accession_DB_merged.csv
+* /data2/RCC/shono_dicom2
+* /data2/RCC/RCC_detail_done.csv 
+* /data2/RCC/accession_DB_merged.csv
