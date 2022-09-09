@@ -28,3 +28,10 @@ jupyter
 * /data2/RCC/shono_dicom2
 * /data2/RCC/RCC_detail_done.csv 
 * /data2/RCC/accession_DB_merged.csv
+
+# Usage
+For model Training: training.ipynb
+
+For model interpretation: interpretation.ipynb
+
+For training result analysis: multitask_result_check.ipynb
