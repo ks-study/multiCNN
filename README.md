@@ -5,7 +5,7 @@ this package provide the model for automated diagnosis of renal cell carcinoma s
 ```
 cd BuildDocker
 docker build . -t multicnn
- docker run --gpus all --shm-size=32g --name multicnn_container -v /home/shono/:/srv -v /mnt/shono/:/home/shono -v /data1/:/data1_true -v /data2/:/data1 -v /share:/share -d -p 8208:8888 -p 8206:6006  multicnn
+docker run --gpus all --shm-size=32g --name multicnn_container -v /home/shono/:/srv -v /mnt/shono/:/home/shono -v /data1/:/data1_true -v /data2/:/data1 -v /share:/share -d -p 8208:8888 -p 8206:6006  multicnn
 ```
 
 # Requirements:
